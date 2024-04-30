@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orangered">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtAddCamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/geometric415blackbt"
+        android:gravity="center"
+        android:text="ADD CAMP DETAILS"
+        android:textColor="@color/darkred"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Please Enter Camp Details"
+        android:textColor="@color/darkred"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:fontFamily="@font/geometric415blackbt"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="75dp"/>
+
+    <EditText
+        android:id="@+id/CampName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Camp Name"
+        android:layout_marginTop="190dp"
+        android:layout_marginBottom="16dp"
+        android:textColorHint="@color/darkred"
+        android:textColor="@color/darkred"
+        android:fontFamily="@font/geometric415blackbt"
+        android:textStyle="normal"/>
+
+    <EditText
+        android:id="@+id/CampAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Camp Address"
+        android:layout_below="@id/CampName"
+        android:layout_marginBottom="16dp"
+        android:textColorHint="@color/darkred"
+        android:textColor="@color/darkred"
+        android:fontFamily="@font/geometric415blackbt"
+        android:textStyle="normal"/>
+
+    <EditText
+        android:id="@+id/PhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:layout_below="@id/CampAddress"
+        android:layout_marginBottom="32dp"
+        android:textColorHint="@color/darkred"
+        android:textColor="@color/darkred"
+        android:fontFamily="@font/geometric415blackbt"
+        android:textStyle="normal"/>
+
+    <Button
+        android:id="@+id/btnSaveCamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Camp"
+        android:background="@drawable/shape"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/geometric415blackbt"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".MainActivity">-->
+<!--<LinearLayout-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:orientation="vertical"-->
+<!--tools:layout_editor_absoluteX="1dp"-->
+<!--tools:layout_editor_absoluteY="1dp"-->
+<!--tools:ignore="MissingConstraints">-->
+<!--<TextView-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:text="Database Example"-->
+<!--    android:textSize="30dp"-->
+<!--    android:layout_gravity="center"-->
+<!--    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+<!--    app:layout_constraintStart_toStartOf="parent"-->
+<!--    app:layout_constraintTop_toTopOf="parent" />-->
+<!--<TextView-->
+<!--    android:id="@+id/textView"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:text="Student Enrollment No"-->
+<!--    android:textSize="30dp"/>-->
+<!--<EditText-->
+<!--    android:id="@+id/edtxtenrollno"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:ems="10"-->
+<!--    android:inputType="textPersonName"-->
+<!--    android:text="" />-->
+<!--<TextView-->
+<!--    android:id="@+id/textView2"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:textSize="30dp"-->
+<!--    android:text="Student Name" />-->
+<!--<EditText-->
+<!--android:id="@+id/edtxtname"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:ems="10"-->
+<!--android:inputType="textPersonName"-->
+<!--android:text="" />-->
+<!--<Button-->
+<!--    android:id="@+id/btnsave"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:text="Save"-->
+<!--    android:textSize="30dp"/>-->
+<!--<Button-->
+<!--    android:id="@+id/btnview"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:textSize="30dp"-->
+<!--    android:text="View" />-->
+<!--</LinearLayout>-->
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:id="@+id/main"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    android:background="@drawable/bg1"-->
+    <!--    android:padding="16dp">-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/txtCampDetails"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginTop="32dp"-->
+    <!--        android:text="Camp Details"-->
+    <!--        android:textColor="@color/lightred"-->
+    <!--        android:textSize="48sp"-->
+    <!--        android:textStyle="bold" />-->
+
+    <!--    <androidx.recyclerview.widget.RecyclerView-->
+    <!--        android:id="@+id/recyclerView"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_below="@id/txtCampDetails"-->
+    <!--        android:layout_above="@id/opendialog"-->
+    <!--        android:layout_marginTop="16dp"-->
+    <!--        android:layout_marginBottom="16dp" />-->
+
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+    <!--        android:id="@+id/opendialog"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_margin="16dp"-->
+    <!--        android:src="@drawable/baseline_add_circle_outline_24"-->
+    <!--        android:tint="#fff"-->
+    <!--        app:backgroundTint="@color/lightred"-->
+    <!--        app:layout_anchorGravity="bottom|end" />-->
+
+    <!--</RelativeLayout>-->

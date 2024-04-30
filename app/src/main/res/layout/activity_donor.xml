@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orangered">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".Donor">
+
+    <TextView
+        android:id="@+id/txtDonor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="DONOR"
+        android:textColor="@color/darkred"
+        android:textSize="48sp"
+        android:fontFamily="@font/geometric415blackbt"
+        android:textStyle="bold"
+        android:layout_marginTop="10pt" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/listviewdonor"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="650dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="TextView" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/listviewdonor"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="Your Donor Details Here"-->
+<!--        android:lineSpacingExtra="8dp"-->
+<!--        android:padding="8dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="18sp"-->
+<!--        android:elevation="2dp"-->
+<!--        android:clipToPadding="false"-->
+<!--        />-->
+
+        <TextView
+            android:id="@+id/listviewdonor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Donor Details Here"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_corner_background"
+            android:clipToPadding="false"
+            android:elevation="2dp"
+            android:fontFamily="@font/geometric415blackbt"
+            android:lineSpacingExtra="8dp"
+            android:padding="16dp"
+            android:textColor="@color/darkred"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <!--    <ListView-->
+<!--        android:id="@+id/listviewdonor"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        />-->
+</LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

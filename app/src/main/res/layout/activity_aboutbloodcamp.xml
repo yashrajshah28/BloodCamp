@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/orangered">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="15dp"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/txtAboutUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/geometric415blackbt"
+        android:gravity="center"
+        android:text="ABOUT US"
+        android:textColor="@color/darkred"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="A blood camp, also known as a blood donation camp or blood drive, is an organized event where individuals voluntarily donate blood. These camps are typically organized by hospitals, blood banks, non-profit organizations, community groups, or government agencies with the aim of collecting blood from donors to meet the demand for blood transfusions and other medical purposes."
+        android:textSize="24dp"
+        android:justificationMode="inter_word"
+        android:fontFamily="@font/geometric415blackbt"
+        android:textColor="@color/darkred"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAboutUs"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="372dp"
+        android:layout_height="384dp"
+
+        android:src="@drawable/blooddonation1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Purpose of Blood Camps:"
+        android:textSize="24dp"
+        android:justificationMode="inter_word"
+        android:fontFamily="@font/geometric415blackbt"
+        android:textColor="@color/darkred"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAboutUs"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="1. Blood Collection: The primary purpose of blood camps is to collect blood donations from voluntary donors. Blood collected at these camps is used for various medical treatments, surgeries, emergencies, and transfusions. \n\n2. Meeting Demand: Blood camps help in maintaining an adequate supply of blood units to meet the demand of hospitals and healthcare facilities. Regular blood donation drives ensure a steady and sufficient stock of blood for patients in need. \n\n3. Raising Awareness: Blood camps also serve to raise awareness about the importance of voluntary blood donation and its impact on saving lives. They educate the public about blood types, the donation process, and the significance of donating blood regularly.A blood camp, also known as a blood donation camp or blood drive, is an organized event where individuals voluntarily donate blood. These camps are typically organized by hospitals, blood banks, non-profit organizations, community groups, or government agencies with the aim of collecting blood from donors to meet the demand for blood transfusions and other medical purposes."
+        android:textSize="24dp"
+        android:justificationMode="inter_word"
+        android:fontFamily="@font/geometric415blackbt"
+        android:textColor="@color/darkred"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAboutUs"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="366dp"
+        android:layout_height="432dp"
+        android:src="@drawable/blooddonation" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Benefits of Blood Donation Camps:"
+        android:textSize="24dp"
+        android:justificationMode="inter_word"
+        android:fontFamily="@font/geometric415blackbt"
+        android:textColor="@color/darkred"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAboutUs"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="1. Saving Lives: Blood camps play a critical role in saving lives by providing a vital resource for medical treatments, surgeries, and emergencies. \n\n2. Community Engagement: Blood camps foster a sense of community engagement and social responsibility among donors and organizers. \n\n3. Health Benefits for Donors: Regular blood donation has health benefits for donors, including reducing the risk of certain illnesses and improving cardiovascular health. \n\n4. Building Donor Database: Blood camps help in building a database of voluntary donors for future blood donation initiatives. \n\n"
+        android:textSize="24dp"
+        android:justificationMode="inter_word"
+        android:fontFamily="@font/geometric415blackbt"
+        android:textColor="@color/darkred"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAboutUs"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="354dp"
+        android:layout_height="323dp"
+        android:src="@drawable/donateblood1" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Participation and Support:"
+        android:textSize="24dp"
+        android:justificationMode="inter_word"
+        android:fontFamily="@font/geometric415blackbt"
+        android:textColor="@color/darkred"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAboutUs"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Donors: Individuals who are eligible to donate blood are encouraged to participate in blood camps regularly to contribute to this life-saving cause. \n\nOrganizations: Businesses, educational institutions, and community groups can support blood camps by hosting or sponsoring donation drives and promoting awareness about blood donation. \n\nBlood camps are essential for ensuring a stable and sufficient blood supply for healthcare services and emergencies. By participating in or supporting blood donation camps, individuals and organizations can make a significant impact on public health and contribute to saving lives."
+        android:textSize="24dp"
+        android:justificationMode="inter_word"
+        android:fontFamily="@font/geometric415blackbt"
+        android:textColor="@color/darkred"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAboutUs"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="439dp"
+        android:layout_height="466dp"
+        android:src="@drawable/donateblood" />
+
+
+</LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

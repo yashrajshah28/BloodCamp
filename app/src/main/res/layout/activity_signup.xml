@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4">
+
+<LinearLayout
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Signup">
+
+
+    <TextView
+        android:id="@+id/txtSingup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGNUP"
+        android:fontFamily="@font/geometric415blackbt"
+        android:textColor="@color/darkred"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        />
+
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:hint="Full Name"
+        android:textColor="@color/darkred"
+        android:fontFamily="@font/geometric415blackbt"
+        android:textColorHint="@color/darkred"
+      />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Email"
+        android:textColor="@color/darkred"
+        android:textColorHint="@color/darkred"
+        android:fontFamily="@font/geometric415blackbt"
+         />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:textColor="@color/darkred"
+        android:hint="User Name"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/darkred"
+        android:fontFamily="@font/geometric415blackbt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:textColor="@color/darkred"
+        android:hint="Password"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/darkred"
+        android:fontFamily="@font/geometric415blackbt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/phone"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textStyle="bold"-->
+<!--        android:hint="Phone"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:textColorHint="@color/white"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"/>-->
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/blood"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textStyle="bold"-->
+<!--        android:hint="Blood Group"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:textColorHint="@color/white"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"/>-->
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape"
+        android:padding="10dp"
+        android:text="Signup"
+        android:textColor="@color/white"
+        android:fontFamily="@font/geometric415blackbt"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Already Have An Account? Login Here"
+        android:textColor="@color/darkred"
+        android:fontFamily="@font/geometric415blackbt"
+        android:textSize="20dp" />
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

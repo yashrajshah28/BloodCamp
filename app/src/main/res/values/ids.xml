@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="recyclerView" type="id" />
+    <item name="radioBtnMale" type="id" />
+    <item name="radioBtnFemale" type="id" />
+    <item name="RGgender" type="id" />
+    <item name="radioBtnOther" type="id" />
+    <item name="DBloodGroup" type="id" />
+    <item name="DGender" type="id" />
+</resources>

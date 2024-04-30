@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orangered">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".CampList">
+
+    <TextView
+        android:id="@+id/txtDonor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="CAMP DETAILS"
+        android:fontFamily="@font/geometric415blackbt"
+        android:textColor="@color/darkred"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10pt" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/listviewdata"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="650dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="TextView" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/listviewdata"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="Your Camp Details Here"-->
+<!--        android:lineSpacingExtra="8dp"-->
+<!--        android:padding="8dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="18sp"-->
+<!--        android:elevation="2dp"-->
+<!--        android:clipToPadding="false"-->
+<!--    />-->
+
+        <TextView
+            android:id="@+id/listviewdata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Your Camp Details Here"
+            android:lineSpacingExtra="8dp"
+            android:padding="16dp"
+            android:textColor="@color/darkred"
+            android:textSize="18sp"
+            android:background="@drawable/rounded_corner_background"
+            android:elevation="2dp"
+            android:clipToPadding="false"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/geometric415blackbt"
+            android:textStyle="normal"
+            />
+
+<!--    <ListView-->
+<!--        android:id="@+id/listviewdata"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        />-->
+</LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".CampList">-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="409dp"-->
+<!--        android:layout_height="729dp"-->
+<!--        android:orientation="vertical"-->
+<!--        tools:layout_editor_absoluteX="1dp"-->
+<!--        tools:layout_editor_absoluteY="1dp"-->
+<!--        tools:ignore="MissingConstraints">-->
+<!--        <ListView-->
+<!--            android:id="@+id/listviewdata"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:divider="#17f"-->
+<!--            android:dividerHeight="3dp"-->
+<!--            android:listSelector="#cb2" />-->
+<!--    </LinearLayout>-->
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3">
+
+
+    <TextView
+        android:id="@+id/txtDashboard"
+        android:layout_width="259dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/geometric415blackbt"
+        android:gravity="center"
+        android:onClick="onDonorButtonClick"
+        android:text="DASHBOARD"
+        android:textColor="@color/darkred"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.179" />
+
+    <Button
+        android:id="@+id/btnDonor"
+        android:layout_width="186dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shape"
+        android:fontFamily="@font/geometric415blackbt"
+        android:onClick="onDonorButtonClick"
+        android:text="Donor"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.417" />
+
+    <Button
+        android:id="@+id/btnAboutBloodCamp"
+        android:layout_width="186dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shape"
+        android:fontFamily="@font/geometric415blackbt"
+        android:onClick="onDonorButtonClick"
+        android:text="About US"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.417" />
+
+    <Button
+        android:id="@+id/btnAddDonor"
+        android:layout_width="186dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shape"
+        android:fontFamily="@font/geometric415blackbt"
+        android:onClick="onDonorButtonClick"
+        android:text="Add Donor"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <Button
+        android:id="@+id/btnAddCampDetails"
+        android:layout_width="186dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shape"
+        android:fontFamily="@font/geometric415blackbt"
+        android:onClick="onDonorButtonClick"
+        android:text="Add Camp Details"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <Button
+        android:id="@+id/btnCampList"
+        android:layout_width="186dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shape"
+        android:fontFamily="@font/geometric415blackbt"
+        android:onClick="onDonorButtonClick"
+        android:text="View Camp List"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654" />
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="186dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shape"
+        android:fontFamily="@font/geometric415blackbt"
+        android:onClick="onDonorButtonClick"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background3"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtDashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Dashboard"
+        android:textColor="@color/darkred"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10pt" />
+
+    <Button
+        android:id="@+id/btnDonor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="60dp"
+        android:text="Donor"
+        android:background="@drawable/shape"
+        android:textColor="@color/white"
+        android:onClick="onDonorButtonClick" />
+
+    <Button
+        android:id="@+id/btnReceiver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/shape"
+        android:onClick="onReceiverButtonClick"
+        android:text="Receiver"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnAddDonor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Donor"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:textColor="@color/white"
+        android:onClick="onAddDonorButtonClick" />
+
+    <Button
+        android:id="@+id/btnAddCampDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Camp Details"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:textColor="@color/white"
+        android:onClick="onAddCampDetailsButtonClick" />
+
+    <Button
+        android:id="@+id/btnCampList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camp List"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:textColor="@color/white"
+        android:onClick="onCampListButtonClick" />
+
+</LinearLayout>
+-->

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orangered">
+<!--<ScrollView-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<LinearLayout
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10dp"
+    tools:context=".AddDonor">
+
+    <TextView
+        android:id="@+id/txtAddDonor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ADD DONOR"
+        android:textColor="@color/darkred"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/geometric415blackbt"
+        android:layout_marginTop="10pt" />
+
+    <TextView
+        android:id="@+id/txtForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Please Enter Your Details"
+        android:textColor="@color/darkred"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:fontFamily="@font/geometric415blackbt"
+        android:layout_marginTop="1pt" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DName"
+        android:hint="Name"
+        android:textColor="@color/darkred"
+        android:textStyle="normal"
+        android:layout_marginTop="40dp"
+        android:textColorHint="@color/darkred"
+        android:fontFamily="@font/geometric415blackbt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DEmail"
+        android:hint="Email"
+        android:textColor="@color/darkred"
+        android:textStyle="normal"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/darkred"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/geometric415blackbt"
+        android:layout_marginRight="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DPhone"
+        android:hint="Phone Number"
+        android:textColor="@color/darkred"
+        android:textStyle="normal"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/darkred"
+        android:fontFamily="@font/geometric415blackbt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DAddress"
+        android:hint="Address"
+        android:textColor="@color/darkred"
+        android:textStyle="normal"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/darkred"
+        android:fontFamily="@font/geometric415blackbt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DCity"
+        android:hint="City"
+        android:textColor="@color/darkred"
+        android:textStyle="normal"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/darkred"
+        android:fontFamily="@font/geometric415blackbt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DPincode"
+        android:hint="Pincode"
+        android:textColor="@color/darkred"
+        android:fontFamily="@font/geometric415blackbt"
+        android:textStyle="normal"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/darkred"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DBloodGroup"
+        android:hint="BloodGroup"
+        android:textColor="@color/darkred"
+        android:fontFamily="@font/geometric415blackbt"
+        android:textStyle="normal"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/darkred"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DGender"
+        android:hint="Gender"
+        android:textColor="@color/darkred"
+        android:fontFamily="@font/geometric415blackbt"
+        android:textStyle="normal"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/darkred"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Select your Blood Group"-->
+<!--        android:textSize="18dp"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:textColor="@color/white"-->
+<!--        />-->
+
+<!--    <Spinner-->
+<!--        android:id="@+id/SBloodGroup"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:textColor="@color/darkred"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColorHint="@color/darkred"/>-->
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/editTextBloodgroup"-->
+<!--        android:hint="Blood Group"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:textColorHint="@color/white"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"/>-->
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/editTextGender"-->
+<!--        android:hint="Gender"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:textColorHint="@color/white"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"/>-->
+
+<!--    <RadioGroup-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="116dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:id="@+id/RGgender">-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radioBtnMale"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:text="Male"-->
+<!--            android:textColor="@color/darkred"-->
+<!--            android:textSize="18dp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radioBtnFemale"-->
+<!--            android:layout_width="101dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:text="Female"-->
+<!--            android:textColor="@color/darkred"-->
+<!--            android:textSize="18dp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radioBtnOther"-->
+<!--            android:layout_width="98dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:text="Other"-->
+<!--            android:textColor="@color/darkred"-->
+<!--            android:textSize="18dp"-->
+<!--            android:textStyle="bold" />-->
+<!--    </RadioGroup>-->
+    <Button
+        android:id="@+id/btnAddDonor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape"
+        android:padding="10dp"
+        android:text="Add Donor"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/geometric415blackbt"
+        android:layout_alignParentBottom="true"/>
+
+</LinearLayout>
+<!--</ScrollView>-->
+</androidx.constraintlayout.widget.ConstraintLayout>
